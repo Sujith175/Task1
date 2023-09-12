@@ -1,0 +1,37 @@
+/* styles.css */
+
+/* Navigation bar styles */
+nav {
+  background-color: #069eb5;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between; /* Distribute items with space between them */
+  align-items: center; /* Vertically center items */
+}
+
+/* Logo styles */
+.logo img {
+  height: 40px; /* Adjust the height of the logo */
+  /* Add any other logo-specific styles here */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #ff5733;
+}

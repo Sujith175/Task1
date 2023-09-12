@@ -1,0 +1,51 @@
+/* CategoryPage.css */
+
+/* Product card styles */
+.product-card {
+  display: inline-block; /* Display products in a row */
+  width: calc(30% - 10px); /* Adjust the width of each product card */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #b6f7f7;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-right: 10px; /* Add spacing between product cards */
+  transition: transform 0.2s, box-shadow 0.2s; /* Add transitions for hover effect */
+  margin-top: 20px;
+  align-items: center;
+}
+
+/* Hover effect and shadow when hovering over a product card */
+.product-card:hover {
+  transform: translateY(-5px); /* Move the card up slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow on hover */
+}
+
+/* Product image styles */
+.category-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Product title styles */
+.category-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Add to Cart button styles */
+.product-card button {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.product-card button:hover {
+  background-color: #e5482b;
+}
